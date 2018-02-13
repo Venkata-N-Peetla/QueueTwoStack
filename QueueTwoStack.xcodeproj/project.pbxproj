@@ -15,6 +15,9 @@
 		C1785B7F2032A34D00036D74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785B7E2032A34D00036D74 /* main.m */; };
 		C1785B892032A34D00036D74 /* QueueTwoStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785B882032A34D00036D74 /* QueueTwoStackTests.m */; };
 		C1785B942032A34D00036D74 /* QueueTwoStackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785B932032A34D00036D74 /* QueueTwoStackUITests.m */; };
+		C1785BA32032A36F00036D74 /* PVStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785BA22032A36F00036D74 /* PVStack.m */; };
+		C1785BA62032A51500036D74 /* PVQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785BA52032A51500036D74 /* PVQueue.m */; };
+		C1785BA92032A6B600036D74 /* PVQueueTwoStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C1785BA82032A6B600036D74 /* PVQueueTwoStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		C1785B8F2032A34D00036D74 /* QueueTwoStackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTwoStackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1785B932032A34D00036D74 /* QueueTwoStackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueTwoStackUITests.m; sourceTree = "<group>"; };
 		C1785B952032A34D00036D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1785BA12032A36F00036D74 /* PVStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVStack.h; sourceTree = "<group>"; };
+		C1785BA22032A36F00036D74 /* PVStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVStack.m; sourceTree = "<group>"; };
+		C1785BA42032A51500036D74 /* PVQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVQueue.h; sourceTree = "<group>"; };
+		C1785BA52032A51500036D74 /* PVQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVQueue.m; sourceTree = "<group>"; };
+		C1785BA72032A6B600036D74 /* PVQueueTwoStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVQueueTwoStack.h; sourceTree = "<group>"; };
+		C1785BA82032A6B600036D74 /* PVQueueTwoStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVQueueTwoStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				C1785B702032A34D00036D74 /* AppDelegate.m */,
 				C1785B722032A34D00036D74 /* ViewController.h */,
 				C1785B732032A34D00036D74 /* ViewController.m */,
+				C1785BA12032A36F00036D74 /* PVStack.h */,
+				C1785BA22032A36F00036D74 /* PVStack.m */,
+				C1785BA42032A51500036D74 /* PVQueue.h */,
+				C1785BA52032A51500036D74 /* PVQueue.m */,
+				C1785BA72032A6B600036D74 /* PVQueueTwoStack.h */,
+				C1785BA82032A6B600036D74 /* PVQueueTwoStack.m */,
 				C1785B752032A34D00036D74 /* Main.storyboard */,
 				C1785B782032A34D00036D74 /* Assets.xcassets */,
 				C1785B7A2032A34D00036D74 /* LaunchScreen.storyboard */,
@@ -265,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1785BA62032A51500036D74 /* PVQueue.m in Sources */,
+				C1785BA32032A36F00036D74 /* PVStack.m in Sources */,
 				C1785B742032A34D00036D74 /* ViewController.m in Sources */,
+				C1785BA92032A6B600036D74 /* PVQueueTwoStack.m in Sources */,
 				C1785B7F2032A34D00036D74 /* main.m in Sources */,
 				C1785B712032A34D00036D74 /* AppDelegate.m in Sources */,
 			);
